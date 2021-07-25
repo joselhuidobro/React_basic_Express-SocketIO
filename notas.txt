@@ -1,0 +1,20 @@
+Para ubuntu ( probado en 18.04)
+
+instalar en raiz
+
+nodejs V16.x
+# Using Ubuntu
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+#socket io
+// with npm
+sudo npm install socket.io
+
+
+#nodemon
+sudo npm install -g nodemon
+
+fuentes
+https://github.com/nodesource/distributions/blob/master/README.md
+https://www.npmjs.com/package/socket.io
